@@ -8,26 +8,48 @@ MLB-Project is designed to simulate and display player performance through intui
 
 ##  Features
 
-- Compare two MLB players side-by-side by querying a dataset of historical stats
-- Backend API built with Flask to fetch and return player statistics
-- Cleaned and structured dataset using Pandas
-- Planned: Interactive charts and comparisons using React, HTML, CSS, and JavaScript
+- Compare **two MLB players** side-by-side
+- Select from any **team** and compare across teams
+- Choose between **batting or pitching stats**
+- Compare **multiple stats at once**
+- Highlight better player in **green** and worse in **red**
+- Shows **overall leader** by stat wins
+- Clean, structured dataset using Pandas
+- Flask API delivers stat comparisons as structured JSON
 
 ##  Tech Stack
 
 - **Backend**: Python, Flask, Pandas
-- **Frontend**: React (planned), HTML, CSS, JavaScript
+- **Frontend**: React, HTML, CSS, JavaScript
 - **Data Source**: Kaggle - MLB player stats
-- **Other Tools**: JSON API, RESTful architecture, CSV data processing
+- **Tools**: Flask-CORS, RESTful APIs, CSV data handling
 
 ##  How to Run
 
-1. Clone this repository
-2. Make sure you have Python 3 and Flask already installed
-3. Place your 'player_stats.csv' file inside the '/data' directory
+### Backend (Flask)
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/MLB-Project.git
+   cd MLB-Project
+2. Install Python dependencies:pip install flask flask-cors pandas
+3. Place your CSV files here: backend/data/
+├── 2023 MLB Player Stats - Batting.csv
+└── 2023 MLB Player Stats - Pitching.csv
 4. Run the Flask server:
-   '''bash
+   cd backend
    python main.py
 
-![image](https://github.com/user-attachments/assets/d73d68b0-b8c4-4e56-8073-93df8562a23d)
-![image](https://github.com/user-attachments/assets/ee553419-a159-454d-aeee-6e65a6048ede)
+### Frontend (React)
+1. In a new terminal:
+   cd frontend
+   npm install
+   npm start
+
+<div align="center"> <img src="https://github.com/user-attachments/assets/d73d68b0-b8c4-4e56-8073-93df8562a23d" alt="MLB Stat Comparison UI" width="700"/> <br><br> <img src="https://github.com/user-attachments/assets/ee553419-a159-454d-aeee-6e65a6048ede" alt="MLB Comparison Table" width="700"/> </div>
+
+
+##  Future Work
+- Add chart visualizations (using Chart.js or Recharts)
+- Allow user-uploaded CSVs to analyze custom datasets
+- Predictive modeling using player history and stats

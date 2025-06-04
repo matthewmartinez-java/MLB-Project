@@ -30,3 +30,4 @@ MLB-Project is designed to simulate and display player performance through intui
    python main.py
 
 ![image](https://github.com/user-attachments/assets/d73d68b0-b8c4-4e56-8073-93df8562a23d)
+![image](https://github.com/user-attachments/assets/ee553419-a159-454d-aeee-6e65a6048ede)

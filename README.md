@@ -32,19 +32,27 @@ MLB-Project is designed to simulate and display player performance through intui
    ```bash
    git clone https://github.com/your-username/MLB-Project.git
    cd MLB-Project
-2. Install Python dependencies:pip install flask flask-cors pandas
-3. Place your CSV files here: backend/data/
-├── 2023 MLB Player Stats - Batting.csv
-└── 2023 MLB Player Stats - Pitching.csv
+2. Install Python dependencies:
+   ```bash
+   pip install flask flask-cors pandas
+3. Place your CSV files here:
+   ```bash
+   backend/data/
+   ├── 2023 MLB Player Stats - Batting.csv
+   └── 2023 MLB Player Stats - Pitching.csv
 4. Run the Flask server:
+   ```bash
    cd backend
    python main.py
 
 ### Frontend (React)
 1. In a new terminal:
+   ```bash
    cd frontend
    npm install
    npm start
+
+##  Screenshots
 
 <div align="center"> <img src="https://github.com/user-attachments/assets/d73d68b0-b8c4-4e56-8073-93df8562a23d" alt="MLB Stat Comparison UI" width="700"/> <br><br> <img src="https://github.com/user-attachments/assets/ee553419-a159-454d-aeee-6e65a6048ede" alt="MLB Comparison Table" width="700"/> </div>
 
